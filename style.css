@@ -74,6 +74,7 @@ a {
 button {
     background-color: #3882f6;
     border-radius: 8px;
+    padding: 10px 25px;
 }
 
 button.introsubtext {
