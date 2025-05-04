@@ -46,9 +46,31 @@ a {
     padding: 0 150px;
 }
 
+.infotitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
 .content {
     display: flex;
     justify-content: center;
+    gap: 30px;
+}
+
+.section {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.section .text {
+    max-width: 150px;
+}
+
+.section img {
+    border-radius: 8%;
+    border: 5px solid #3882f6;
 }
 
 .introtitle {
