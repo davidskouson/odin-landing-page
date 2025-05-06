@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
+    font-family: Roboto, sans-serif;
 }
 
 header {
@@ -101,4 +101,21 @@ button {
 
 button.introsubtext {
     border-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 200px 100px 275px;
+}
+
+.quotewords {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteauthor {
+    text-align: right;
+    padding: 25px 50px 0;
+    font-size: 24px;
+    font-weight: 700;
 }
