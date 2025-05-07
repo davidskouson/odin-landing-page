@@ -43,14 +43,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 150px;
+    padding: 30px 150px 50px;
 }
 
 .infotitle {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
-    margin: 30px 0;
+    margin: 0 0 30px;
 }
 
 .content {
@@ -118,6 +118,36 @@ button.introsubtext {
     padding: 25px 50px 0;
     font-size: 24px;
     font-weight: 700;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 40px 75px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.actiontitle {
+    font-weight: 700;
+    color: #e5e7eb;
+}
+
+.actiontext {
+    color: #e5e7eb;
+}
+
+button.actiontext {
+    border: 2px solid #e5e7eb;
 }
 
 footer {
