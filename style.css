@@ -119,3 +119,12 @@ button.introsubtext {
     font-size: 24px;
     font-weight: 700;
 }
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 30px;
+}
